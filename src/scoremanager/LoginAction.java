@@ -9,6 +9,7 @@ public class LoginAction extends Action {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
+		//コメントを追加
 		//ローカル変数の宣言 1
 		//なし
 		//リクエストパラメータ―の取得 2

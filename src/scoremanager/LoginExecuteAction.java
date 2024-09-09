@@ -16,6 +16,7 @@ public class LoginExecuteAction extends Action {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
+		//コメント追加２（１）
 		//ローカル変数の宣言 1
 		String url = "";
 		String id = "";

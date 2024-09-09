@@ -9,9 +9,8 @@ public class LoginAction extends Action {
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse res) throws Exception {
-		//コメントを追加
+		//コメント追加２（１）
 		//ローカル変数の宣言 1
-		//なし
 		//リクエストパラメータ―の取得 2
 		//なし
 		//DBからデータ取得 3
@@ -23,6 +22,7 @@ public class LoginAction extends Action {
 		//レスポンス値をセット 6
 		//なし
 		//JSPへフォワード 7
+		//コメント追加２（２）
 		req.getRequestDispatcher("login.jsp").forward(req, res);
 	}
 }
